@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: url('Gilroy-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('Gilroy-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('Gilroy-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Sharp Sans No1 Extrabold';
+	src: url('Sharp Sans No1 Extrabold') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}

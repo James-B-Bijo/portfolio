@@ -34,3 +34,11 @@ footer>span{flex-shrink:0}
 .info-topline{gap:20px}.info-topline span:last-child{text-align:right}
 .section-heading{text-align:left}.project-intro h1{margin-left:0}
 }
+
+/* Clearer hierarchy, aligned section endings and purposeful calls to action. */
+.identity-home{display:flex;gap:.035em;color:#141414;transition:opacity .2s}.identity-home:hover{color:#141414;opacity:.65}.info-identity h1{display:block}
+.info-cta,.text-link{font-size:16px;font-weight:600;line-height:1.4;padding-top:16px;padding-bottom:14px;border-bottom-color:#555}
+.info-links{max-width:none}.info-links a{font-size:16px;font-weight:600;line-height:1.4;padding:20px 0;min-height:64px}.info-links a:last-child{color:#141414;border-bottom-color:#555}.info-links a:last-child:hover{color:#ed2929}
+.info-bottom{align-items:stretch}.info-bottom>div:first-child{display:flex;flex-direction:column}.info-bottom .info-links{margin-top:auto;padding-top:30px}.info-accordions{display:flex;flex-direction:column}.info-accordions details{margin-bottom:0;padding:20px 0;min-height:64px}.info-accordions details:first-child{padding-top:0}.info-accordions details:last-child{margin-top:auto}.info-accordions summary{font-size:16px;font-weight:600;line-height:1.4}.info-accordions p{font-size:14px;line-height:1.65}.info-bottom h2{font-size:30px;font-weight:500}
+.eyebrow,.info-topline,.archive-bar h1{font-size:11px;font-weight:500;color:#666}.project-title{font-size:12px;color:#666}.project-number{font-size:16px;font-weight:600}.views button{font-size:13px;font-weight:500}.project-nav{font-size:16px;font-weight:600}.metadata{font-size:13px}.metadata dt{font-weight:600}.solid{font-size:16px;font-weight:600}form label{font-size:13px;font-weight:600}form input,form textarea,form select{font-weight:400}footer{font-size:12px}
+@media(max-width:600px){.info-links a,.info-cta,.text-link{font-size:15px}.info-bottom .info-links{margin-top:25px;padding-top:0}.info-accordions details:last-child{margin-top:0}.info-bottom h2{font-size:27px}.project-title{font-size:11px}.project-nav{font-size:14px}.eyebrow,.info-topline,.archive-bar h1{font-size:9px}footer{font-size:11px}}

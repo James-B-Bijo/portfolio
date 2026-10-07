@@ -52,3 +52,8 @@ footer>span{flex-shrink:0}
 .info-links a{height:64px;box-sizing:border-box;align-items:center;padding:0}
 .info-accordions details:not(:first-child){padding:20px 0}
 @media(max-width:600px){.info-links a{height:64px}.info-accordions details:first-child{flex:0 0 auto}}
+
+/* Paired tracks keep link and accordion baselines aligned in every state. */
+.info-bottom.paired-info{display:block}.paired-heading{margin-bottom:30px}.paired-heading .eyebrow{margin-bottom:30px}.paired-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);column-gap:9%;align-items:stretch}
+.paired-row>a,.paired-row>details{border-bottom:1px solid #ddd;margin:0;min-height:64px;padding:0;box-sizing:border-box}.paired-row>a{display:flex;justify-content:space-between;align-items:flex-start;padding:20px 0;font-size:16px;font-weight:600;line-height:24px}.paired-row summary{display:flex;justify-content:space-between;list-style:none;cursor:inherit;padding:20px 0;font-size:16px;font-weight:600;line-height:24px}.paired-row summary::-webkit-details-marker{display:none}.paired-row summary span{color:#ed2929}.paired-row details[open] summary span{transform:rotate(45deg)}.paired-row details p{font-size:14px;line-height:1.65;color:#777;max-width:440px;padding-bottom:20px}.paired-row>a:hover,.paired-row summary:hover{color:#ed2929}
+@media(max-width:600px){.paired-row{column-gap:24px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.paired-row>a,.paired-row summary{font-size:13px;line-height:20px;padding:20px 0}.paired-row>a span{margin-left:8px}.paired-row details p{font-size:12px}.paired-heading h2{font-size:26px}}
